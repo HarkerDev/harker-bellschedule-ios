@@ -15,8 +15,10 @@ Install CocoaPods. In the root directory of the project, in terminal, type
 Open `harker-bellschedule-ios.xcworkspace`
 
 Inside of `AppDelegate.swift`, inside the function
+
 ```swift
-func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {}```
+func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {}
+```
 
 Add the function `OneSignal.initWithLaunchOptions(launchOptions, appId: "your-app-id")`, with the app key that OneSignal provides you for the project.
 
