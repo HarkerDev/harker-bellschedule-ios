@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44CFAD072627D182DE220A8CBA1C0D3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4ECAF530836189D239C1131A7FF6691F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		52300E39B8E3DCA8D9E88A92C420B69C /* Pods-harker-bellschedule-iosUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A30C22285F452151D2C09ED38FDC08E /* Pods-harker-bellschedule-iosUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		603F0289AD6B68F99E13E945DA42FEDB /* Pods-harker-bellschedule-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F94C66826097866352A2111D033E9270 /* Pods-harker-bellschedule-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4650731FA82F7AA135614284A61751A /* Pods-harker-bellschedule-iosTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 137A38168F5A7631D6D15CF6B4317778 /* Pods-harker-bellschedule-iosTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC24BD49CBE8E1B1F8D0CCF62F6CA22D /* Pods-harker-bellschedule-iosUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A358BE0B4D6647502B4858A52E74FE82 /* Pods-harker-bellschedule-iosUITests-dummy.m */; };
+		DC7779476541FD6D3549BEE160A542CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F027D61CC9DC5DA0E047408674B17A4E /* Pods-harker-bellschedule-iosTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90BC5D8492617A955C1C017640CB7361 /* Pods-harker-bellschedule-iosTests-dummy.m */; };
+		F525263F5DD06B699C41F1CBF7171497 /* Pods-harker-bellschedule-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BEECF5E209CD68DFC4C773FF59BCCE2 /* Pods-harker-bellschedule-ios-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0899B136018FD375107D0ECEDA4B8994 /* Pods-harker-bellschedule-iosTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-harker-bellschedule-iosTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A30C22285F452151D2C09ED38FDC08E /* Pods-harker-bellschedule-iosUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-harker-bellschedule-iosUITests-umbrella.h"; sourceTree = "<group>"; };
+		0C06DE4086F5B9E2F32C559B32184F44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		137A38168F5A7631D6D15CF6B4317778 /* Pods-harker-bellschedule-iosTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-harker-bellschedule-iosTests-umbrella.h"; sourceTree = "<group>"; };
+		17028B20746FB897FE6593F57BD2CB16 /* Pods-harker-bellschedule-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-harker-bellschedule-ios.release.xcconfig"; sourceTree = "<group>"; };
+		1E1DF0BE2FCB9ABCAE03AE3E27225C6C /* Pods-harker-bellschedule-ios-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-harker-bellschedule-ios-resources.sh"; sourceTree = "<group>"; };
+		208ABB1522B8573D4D3C42D7FF3336E5 /* Pods-harker-bellschedule-iosUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-harker-bellschedule-iosUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		24F3837429F6C4E1D8E990149DBE490F /* Pods-harker-bellschedule-ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-harker-bellschedule-ios-acknowledgements.markdown"; sourceTree = "<group>"; };
+		269A2A44340E3B73EA4CC8AB766BE5C0 /* Pods-harker-bellschedule-ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-harker-bellschedule-ios-frameworks.sh"; sourceTree = "<group>"; };
+		331DB0DA969A7CF5F050BF29D4102082 /* Pods_harker_bellschedule_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_harker_bellschedule_iosUITests.framework; path = "Pods-harker-bellschedule-iosUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4360FF874913219A28C5A3AB6CABFB51 /* Pods-harker-bellschedule-ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-harker-bellschedule-ios-acknowledgements.plist"; sourceTree = "<group>"; };
+		52BF7D845A401AEA70EAE68B96633B89 /* Pods-harker-bellschedule-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-harker-bellschedule-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		58703898231E92982E5872D22326E4A8 /* Pods-harker-bellschedule-iosTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-harker-bellschedule-iosTests-resources.sh"; sourceTree = "<group>"; };
+		61C12BC28C4113550724DA3CAD77E187 /* Pods-harker-bellschedule-iosUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-harker-bellschedule-iosUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6274015178767AD28DF834DC3D4828A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8004695771F2508F396CAC72A3F5A6A2 /* Pods-harker-bellschedule-iosTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-harker-bellschedule-iosTests-frameworks.sh"; sourceTree = "<group>"; };
+		8A451E55119B6AC0DCF7C6E993276EAD /* Pods-harker-bellschedule-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-harker-bellschedule-ios.modulemap"; sourceTree = "<group>"; };
+		8A98DA003BC3D16244E1E32F64E16E21 /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OneSignal.framework; path = iOS_SDK/Framework/OneSignal.framework; sourceTree = "<group>"; };
+		8BEECF5E209CD68DFC4C773FF59BCCE2 /* Pods-harker-bellschedule-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-harker-bellschedule-ios-dummy.m"; sourceTree = "<group>"; };
+		902EEB22F931A70B827ED78F1DDD166A /* Pods-harker-bellschedule-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-harker-bellschedule-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		90BC5D8492617A955C1C017640CB7361 /* Pods-harker-bellschedule-iosTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-harker-bellschedule-iosTests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95F3A0EC630E7517507D38F902251764 /* Pods-harker-bellschedule-iosTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-harker-bellschedule-iosTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A358BE0B4D6647502B4858A52E74FE82 /* Pods-harker-bellschedule-iosUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-harker-bellschedule-iosUITests-dummy.m"; sourceTree = "<group>"; };
+		B0951B7E61906F39ADA7800D3634AA8D /* Pods-harker-bellschedule-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-harker-bellschedule-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB182B43D1AA1487E79380D827F42FAC /* Pods-harker-bellschedule-iosUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-harker-bellschedule-iosUITests-frameworks.sh"; sourceTree = "<group>"; };
+		BBE06F8B72984498F84B98DEB86DB16D /* Pods_harker_bellschedule_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_harker_bellschedule_iosTests.framework; path = "Pods-harker-bellschedule-iosTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C59EB6674DACF88395F10073F0D009FA /* Pods-harker-bellschedule-iosUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-harker-bellschedule-iosUITests-resources.sh"; sourceTree = "<group>"; };
+		C5C30C0200EE32407537ADC212C982B4 /* Pods-harker-bellschedule-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-harker-bellschedule-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CAC2F2825D11EF2BFB429855DD103843 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D150067E176C37752957341520988543 /* Pods-harker-bellschedule-iosTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-harker-bellschedule-iosTests.modulemap"; sourceTree = "<group>"; };
+		F5B1AE844AB8CCEA9301E3EC2B24B15C /* Pods-harker-bellschedule-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-harker-bellschedule-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		F6648DA725B5FEFAB5920F43184AD295 /* Pods_harker_bellschedule_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_harker_bellschedule_ios.framework; path = "Pods-harker-bellschedule-ios.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94C66826097866352A2111D033E9270 /* Pods-harker-bellschedule-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-harker-bellschedule-ios-umbrella.h"; sourceTree = "<group>"; };
+		FDD4696FA28BEEA37C1BBDD2A6503484 /* Pods-harker-bellschedule-iosUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-harker-bellschedule-iosUITests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		381455F94698F2ABB8344B55A7C360F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECAF530836189D239C1131A7FF6691F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8674C0F0CAE14E2082F068B3DB3EF94F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CFAD072627D182DE220A8CBA1C0D3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B59390DF7B3BABBAA072250F36E6B88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7779476541FD6D3549BEE160A542CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		144E805438EEC250E84C124BDE2D009D /* Pods-harker-bellschedule-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0C06DE4086F5B9E2F32C559B32184F44 /* Info.plist */,
+				FDD4696FA28BEEA37C1BBDD2A6503484 /* Pods-harker-bellschedule-iosUITests.modulemap */,
+				61C12BC28C4113550724DA3CAD77E187 /* Pods-harker-bellschedule-iosUITests-acknowledgements.markdown */,
+				208ABB1522B8573D4D3C42D7FF3336E5 /* Pods-harker-bellschedule-iosUITests-acknowledgements.plist */,
+				A358BE0B4D6647502B4858A52E74FE82 /* Pods-harker-bellschedule-iosUITests-dummy.m */,
+				BB182B43D1AA1487E79380D827F42FAC /* Pods-harker-bellschedule-iosUITests-frameworks.sh */,
+				C59EB6674DACF88395F10073F0D009FA /* Pods-harker-bellschedule-iosUITests-resources.sh */,
+				0A30C22285F452151D2C09ED38FDC08E /* Pods-harker-bellschedule-iosUITests-umbrella.h */,
+				B0951B7E61906F39ADA7800D3634AA8D /* Pods-harker-bellschedule-iosUITests.debug.xcconfig */,
+				C5C30C0200EE32407537ADC212C982B4 /* Pods-harker-bellschedule-iosUITests.release.xcconfig */,
+			);
+			name = "Pods-harker-bellschedule-iosUITests";
+			path = "Target Support Files/Pods-harker-bellschedule-iosUITests";
+			sourceTree = "<group>";
+		};
+		19EEA40816F8C1D3D10ED188DB031EE0 /* Pods-harker-bellschedule-ios */ = {
+			isa = PBXGroup;
+			children = (
+				6274015178767AD28DF834DC3D4828A4 /* Info.plist */,
+				8A451E55119B6AC0DCF7C6E993276EAD /* Pods-harker-bellschedule-ios.modulemap */,
+				24F3837429F6C4E1D8E990149DBE490F /* Pods-harker-bellschedule-ios-acknowledgements.markdown */,
+				4360FF874913219A28C5A3AB6CABFB51 /* Pods-harker-bellschedule-ios-acknowledgements.plist */,
+				8BEECF5E209CD68DFC4C773FF59BCCE2 /* Pods-harker-bellschedule-ios-dummy.m */,
+				269A2A44340E3B73EA4CC8AB766BE5C0 /* Pods-harker-bellschedule-ios-frameworks.sh */,
+				1E1DF0BE2FCB9ABCAE03AE3E27225C6C /* Pods-harker-bellschedule-ios-resources.sh */,
+				F94C66826097866352A2111D033E9270 /* Pods-harker-bellschedule-ios-umbrella.h */,
+				F5B1AE844AB8CCEA9301E3EC2B24B15C /* Pods-harker-bellschedule-ios.debug.xcconfig */,
+				17028B20746FB897FE6593F57BD2CB16 /* Pods-harker-bellschedule-ios.release.xcconfig */,
+			);
+			name = "Pods-harker-bellschedule-ios";
+			path = "Target Support Files/Pods-harker-bellschedule-ios";
+			sourceTree = "<group>";
+		};
+		6202124E9D433C3EA7B1CF2F09917CA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B109A558AEC0464E1C8AD13A3517ECA8 /* OneSignal */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6202124E9D433C3EA7B1CF2F09917CA5 /* Pods */,
+				E21708457D292E9A42E7399A11FE5C33 /* Products */,
+				C92BF69281F0A73F73450A688212CDA6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B109A558AEC0464E1C8AD13A3517ECA8 /* OneSignal */ = {
+			isa = PBXGroup;
+			children = (
+				FF9CEBD734AC19E8ADE2CA12CDF9AD21 /* Frameworks */,
+			);
+			name = OneSignal;
+			path = OneSignal;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C570C13723B77870B8F1BDDBE5715082 /* Pods-harker-bellschedule-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAC2F2825D11EF2BFB429855DD103843 /* Info.plist */,
+				D150067E176C37752957341520988543 /* Pods-harker-bellschedule-iosTests.modulemap */,
+				0899B136018FD375107D0ECEDA4B8994 /* Pods-harker-bellschedule-iosTests-acknowledgements.markdown */,
+				95F3A0EC630E7517507D38F902251764 /* Pods-harker-bellschedule-iosTests-acknowledgements.plist */,
+				90BC5D8492617A955C1C017640CB7361 /* Pods-harker-bellschedule-iosTests-dummy.m */,
+				8004695771F2508F396CAC72A3F5A6A2 /* Pods-harker-bellschedule-iosTests-frameworks.sh */,
+				58703898231E92982E5872D22326E4A8 /* Pods-harker-bellschedule-iosTests-resources.sh */,
+				137A38168F5A7631D6D15CF6B4317778 /* Pods-harker-bellschedule-iosTests-umbrella.h */,
+				52BF7D845A401AEA70EAE68B96633B89 /* Pods-harker-bellschedule-iosTests.debug.xcconfig */,
+				902EEB22F931A70B827ED78F1DDD166A /* Pods-harker-bellschedule-iosTests.release.xcconfig */,
+			);
+			name = "Pods-harker-bellschedule-iosTests";
+			path = "Target Support Files/Pods-harker-bellschedule-iosTests";
+			sourceTree = "<group>";
+		};
+		C92BF69281F0A73F73450A688212CDA6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19EEA40816F8C1D3D10ED188DB031EE0 /* Pods-harker-bellschedule-ios */,
+				C570C13723B77870B8F1BDDBE5715082 /* Pods-harker-bellschedule-iosTests */,
+				144E805438EEC250E84C124BDE2D009D /* Pods-harker-bellschedule-iosUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E21708457D292E9A42E7399A11FE5C33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6648DA725B5FEFAB5920F43184AD295 /* Pods_harker_bellschedule_ios.framework */,
+				BBE06F8B72984498F84B98DEB86DB16D /* Pods_harker_bellschedule_iosTests.framework */,
+				331DB0DA969A7CF5F050BF29D4102082 /* Pods_harker_bellschedule_iosUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF9CEBD734AC19E8ADE2CA12CDF9AD21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A98DA003BC3D16244E1E32F64E16E21 /* OneSignal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		75BEA82FD2A2F68B52C4D6EA9D9CC211 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4650731FA82F7AA135614284A61751A /* Pods-harker-bellschedule-iosTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89F0CB1E7BB1842F6F7E461F44B20807 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603F0289AD6B68F99E13E945DA42FEDB /* Pods-harker-bellschedule-ios-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03BE74863F95D32B196EA70CDE1FEB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52300E39B8E3DCA8D9E88A92C420B69C /* Pods-harker-bellschedule-iosUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4E61238827802E45470C1175135EE911 /* Pods-harker-bellschedule-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2231325747B7322266B6E8D702BDFD41 /* Build configuration list for PBXNativeTarget "Pods-harker-bellschedule-iosUITests" */;
+			buildPhases = (
+				2E20E6B6D2B20494F186A5B68160959B /* Sources */,
+				8674C0F0CAE14E2082F068B3DB3EF94F /* Frameworks */,
+				A03BE74863F95D32B196EA70CDE1FEB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-harker-bellschedule-iosUITests";
+			productName = "Pods-harker-bellschedule-iosUITests";
+			productReference = 331DB0DA969A7CF5F050BF29D4102082 /* Pods_harker_bellschedule_iosUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8C6B8BB8E7034E6E2A3A4EF9FC9433B /* Pods-harker-bellschedule-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5954C8F84306A06EB7BC4ADDA77995 /* Build configuration list for PBXNativeTarget "Pods-harker-bellschedule-iosTests" */;
+			buildPhases = (
+				234A6D9AF5A5F1C03E7BDF1EE889914D /* Sources */,
+				8B59390DF7B3BABBAA072250F36E6B88 /* Frameworks */,
+				75BEA82FD2A2F68B52C4D6EA9D9CC211 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-harker-bellschedule-iosTests";
+			productName = "Pods-harker-bellschedule-iosTests";
+			productReference = BBE06F8B72984498F84B98DEB86DB16D /* Pods_harker_bellschedule_iosTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E598A1DE2FB4F937EFB701ED9DE193C6 /* Pods-harker-bellschedule-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C558A28EBDE43025C88953B131809221 /* Build configuration list for PBXNativeTarget "Pods-harker-bellschedule-ios" */;
+			buildPhases = (
+				A14FF20B013D8627B2BA03FA186D911F /* Sources */,
+				381455F94698F2ABB8344B55A7C360F0 /* Frameworks */,
+				89F0CB1E7BB1842F6F7E461F44B20807 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-harker-bellschedule-ios";
+			productName = "Pods-harker-bellschedule-ios";
+			productReference = F6648DA725B5FEFAB5920F43184AD295 /* Pods_harker_bellschedule_ios.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E21708457D292E9A42E7399A11FE5C33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E598A1DE2FB4F937EFB701ED9DE193C6 /* Pods-harker-bellschedule-ios */,
+				B8C6B8BB8E7034E6E2A3A4EF9FC9433B /* Pods-harker-bellschedule-iosTests */,
+				4E61238827802E45470C1175135EE911 /* Pods-harker-bellschedule-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		234A6D9AF5A5F1C03E7BDF1EE889914D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F027D61CC9DC5DA0E047408674B17A4E /* Pods-harker-bellschedule-iosTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E20E6B6D2B20494F186A5B68160959B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC24BD49CBE8E1B1F8D0CCF62F6CA22D /* Pods-harker-bellschedule-iosUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A14FF20B013D8627B2BA03FA186D911F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F525263F5DD06B699C41F1CBF7171497 /* Pods-harker-bellschedule-ios-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6606BD871DD02CD2C8350FB1DAD4F4C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C30C0200EE32407537ADC212C982B4 /* Pods-harker-bellschedule-iosUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-harker-bellschedule-iosUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-harker-bellschedule-iosUITests/Pods-harker-bellschedule-iosUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_harker_bellschedule_iosUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9057E3B4ED0796D7D51737AFE6B91E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0951B7E61906F39ADA7800D3634AA8D /* Pods-harker-bellschedule-iosUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-harker-bellschedule-iosUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-harker-bellschedule-iosUITests/Pods-harker-bellschedule-iosUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_harker_bellschedule_iosUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		922D6B69621CB2432D460EDC94AC3320 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52BF7D845A401AEA70EAE68B96633B89 /* Pods-harker-bellschedule-iosTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-harker-bellschedule-iosTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-harker-bellschedule-iosTests/Pods-harker-bellschedule-iosTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_harker_bellschedule_iosTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DDFB401CE4C201651E5046C76EF42C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17028B20746FB897FE6593F57BD2CB16 /* Pods-harker-bellschedule-ios.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-harker-bellschedule-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-harker-bellschedule-ios/Pods-harker-bellschedule-ios.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_harker_bellschedule_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAD518888B8623911EAF6E0636B5EAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902EEB22F931A70B827ED78F1DDD166A /* Pods-harker-bellschedule-iosTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-harker-bellschedule-iosTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-harker-bellschedule-iosTests/Pods-harker-bellschedule-iosTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_harker_bellschedule_iosTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D275D0433B182E4928F6EE9BE78BA11F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5B1AE844AB8CCEA9301E3EC2B24B15C /* Pods-harker-bellschedule-ios.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-harker-bellschedule-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-harker-bellschedule-ios/Pods-harker-bellschedule-ios.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_harker_bellschedule_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2231325747B7322266B6E8D702BDFD41 /* Build configuration list for PBXNativeTarget "Pods-harker-bellschedule-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9057E3B4ED0796D7D51737AFE6B91E25 /* Debug */,
+				6606BD871DD02CD2C8350FB1DAD4F4C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5954C8F84306A06EB7BC4ADDA77995 /* Build configuration list for PBXNativeTarget "Pods-harker-bellschedule-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922D6B69621CB2432D460EDC94AC3320 /* Debug */,
+				CAD518888B8623911EAF6E0636B5EAAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C558A28EBDE43025C88953B131809221 /* Build configuration list for PBXNativeTarget "Pods-harker-bellschedule-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D275D0433B182E4928F6EE9BE78BA11F /* Debug */,
+				9DDFB401CE4C201651E5046C76EF42C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
